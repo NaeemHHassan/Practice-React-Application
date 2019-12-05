@@ -1,25 +1,19 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import "./index.css";
+import HelloWorld from "./components/HelloWorld";
+import Paragraph from "./components/paraGraph";
+import { Container } from "react-bootstrap";
+import Calculator from "./components/Calculator";
+import Students from "./components/students";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h1>Hello World!</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Students></Students>
+      </Container>
     </div>
   );
 }

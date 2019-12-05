@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.paraGraph {
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.btnCustom {
+  margin: 10px;
+  color: yellow;
+}
